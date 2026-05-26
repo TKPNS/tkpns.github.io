@@ -1,8 +1,9 @@
 // Térkép inicializálása
 const map = L.map('map').setView([46.915118, 19.697933], 16);
 
+const STADIA_API_KEY = '59970b74-2f97-45d0-9200-897e6371d200';
 // Az alapértelmezett OSM háttér betöltése
-const osm = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+const osm = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'?api_key=${STADIA_API_KEY}`, {
     minZoom: 12,
     maxZoom: 20,
     attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
