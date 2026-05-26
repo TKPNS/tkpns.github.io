@@ -8,6 +8,14 @@ const osm = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/
     attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+// másik sötét basemap, ha elfogyna a ticket
+//const osm = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+//     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+//     subdomains: 'abcd',
+//     minZoom: 12,
+//     maxZoom: 20
+//}).addTo(map);
+
 const satellite = L.tileLayer(
     'https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
     {
