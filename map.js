@@ -92,7 +92,7 @@ const pontok = {
             "properties": { "Id": 6 },
             "geometry": {
                 "type": "Point",
-                "coordinates": [19.69805, 46.90398, 0.0]
+                "coordinates": [19.697924, 46.903862, 0.0]
             }
         },
          {
