@@ -94,6 +94,14 @@ const pontok = {
                 "type": "Point",
                 "coordinates": [19.69805, 46.90398, 0.0]
             }
+        },
+         {
+            "type": "Feature",
+            "properties": { "Id": 7 },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [19.696875, 46.903096, 0.0]
+            }
         }
     ]
 };
